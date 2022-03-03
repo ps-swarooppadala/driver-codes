@@ -20,6 +20,8 @@ public class Main {
   
     static char solve(String s){
       	// Your code goes here
+        // s is the given input string
+      
         char result = ' ';
         return result;
     }
