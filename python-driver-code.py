@@ -1,7 +1,8 @@
 # Python Driver Code
 
-def solve(s):
+def solve(s: str) -> chr:
   # Your code goes here
+  # s is the given input string
   return 
 
 # The following snippet reads the input in the required format. 
