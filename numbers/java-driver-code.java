@@ -1,28 +1,26 @@
-import java.io.*;
-import java.util.*;
-
-public class Main {
-  	// The main function reads the input in the required format.
-  	// Just complete the solve function below.
-    public static void main(String[] args) throws IOException {
-        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        PrintWriter wr = new PrintWriter(System.out);
-        int T = Integer.parseInt(br.readLine().trim());
-        for(int t_i = 0; t_i < T; t_i++)
-        {
-            int n =  Integer.parseInt(br.readLine());
-            String out_ = solve(n);
-            System.out.println(out_);
-         }
-         wr.close();
-         br.close();
+import java .util.scanner;
+public class magic num
+{
+  public static void main (String args[]){
+    Scanner in= new Scanner (System.in);
+    system.out.print("Enter number to check:");
+    int n=num;
+    while(n>9){
+      int Sum=0;
+      while(n!=0){
+        int d=n% 10;
+        n /=10;
+        sum +=d;
+      }
+      n=Sum;
     }
-  
-    static String solve(int n){
-      	// Your code goes here
-        // n is the given input
-      
-        String result = "Special";
-        return result;
-    }
+    if(n=1)
+      System.out.print ln(num+"is a magic number");
+    else
+      System.out.println(nunm+"is not a magic number");
+  }
 }
+    
+                        
+     
+      
